@@ -1,7 +1,6 @@
-$(document).ready(function (btc) {
-  var bitcoinPrice = "https://blockchain.info/ticker?jsoncallback=?";
+$(document).ready(function () {
+  var bitcoinPrice = ("https://blockchain.info/q/24hrprice");
   $.getJSON(bitcoinPrice, function (cost){
-    var usDollarPrice = cost.USD[15m];
-    console.log('usd : ', usDollarPrice);
+    console.log('1 bitcoin = $',cost);
   });
 });
