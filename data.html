@@ -2,30 +2,22 @@
 <html>
 <head>
   <title>data</title>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
   <script>
-
-  function yahoo_get(ticker) {
-  $.getJSON( "https://blockchain.info/ticker?jsoncallback=?", function( data ) {
-    console.log(data)
+  $(document).ready(function (btc) {
+    var bitcoinPrice = ("https://blockchain.info/ticker?jsoncallback=?");
+    $.getJSON(bitcoinPrice, function (cost){
+      console.log(btc);
+      console.log('usd : ', cost);
+    });
   });
-}
-
   </script>
-
 </head>
 
-<body>
+<body style="background-color:#000;">
 
 
-<!--
-$(document).ready(function (btc) {
-  var bitcoinPrice = ("https://blockchain.info/ticker?jsoncallback=?");
-  $.getJSON(bitcoinPrice, function (cost){
-    var usDollarPrice = cost;
-    console.log(btc);
-    console.log('usd : ', usDollarPrice);
-  });
-}); -->
 </body>
 </html>
