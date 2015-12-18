@@ -35,6 +35,13 @@ hm.src = ('++u-heatmap-it+log-js').replace(/[+]/g,'/').replace(/-/g,'.');
 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm, s);
 })();
 </script><!--heatmap test-->
+<script>
+function bitcoinPrice(btc) {
+  $.get.JSON("https://blockchain.info/ticker");
+  console.log(btc);
+}
+bitcoinPrice();
+</script><!--btc price-->
     <style>
     div{font-family:Raleway;}
     </style>
