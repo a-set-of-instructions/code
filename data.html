@@ -7,7 +7,7 @@
 
   <script>
   $(document).ready(function (btc) {
-    var bitcoinPrice = ("https://blockchain.info/ticker?jsoncallback=?");
+    var bitcoinPrice = ("https://blockchain.info/q/24hrprice");
     $.getJSON(bitcoinPrice, function (cost){
       console.log(btc);
       console.log('usd : ', cost);
