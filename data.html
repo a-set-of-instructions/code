@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>data</title>
+
+  <script>
+
+  function yahoo_get(ticker) {
+  $.getJSON( "https://blockchain.info/ticker?jsoncallback=?", function( data ) {
+    console.log(data)
+  });
+}
+
+  </script>
+
+</head>
+
+<body>
+
+
+<!--
+$(document).ready(function (btc) {
+  var bitcoinPrice = ("https://blockchain.info/ticker?jsoncallback=?");
+  $.getJSON(bitcoinPrice, function (cost){
+    var usDollarPrice = cost;
+    console.log(btc);
+    console.log('usd : ', usDollarPrice);
+  });
+}); -->
+</body>
+</html>
