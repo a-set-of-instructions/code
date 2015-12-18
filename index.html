@@ -42,9 +42,11 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
 <script>
 $(document).ready(function (btc) {
   var bitcoinPrice = "https://blockchain.info/ticker?jsoncallback=?"
-  $.getJSON(bitcoinPrice);
-  console.log(btc);
+  $.getJSON(bitcoinPrice, function (json){
+    console.log(json);
+  });
 });
+
 </script><!--btc price-->
 
     <style>
