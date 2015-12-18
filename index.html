@@ -43,7 +43,8 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm
 $(document).ready(function (btc) {
   var bitcoinPrice = "https://blockchain.info/ticker?jsoncallback=?";
   $.getJSON(bitcoinPrice, function (json){
-    console.log(json);
+    var usDollarPrice = json.results[0].USD;
+    console.log('usd : ', usDollarPrice);
   });
 });
 
