@@ -5,7 +5,11 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-  <loc>http://www.racinginnovations.com/</loc>
-  <lastmod>2015-12-21T17:24:20+00:00</lastmod>
+    <loc>http://www.racinginnovations.com/</loc>
+    <lastmod>2016-02-01T14:57:57+00:00</lastmod>
+</url>
+<url>
+    <loc>http://www.racinginnovations.com/photos</loc>
+    <lastmod>2016-02-01T14:57:57+00:00</lastmod>
 </url>
 </urlset>
